@@ -118,8 +118,8 @@ public class Main {
         return -1;
     }
     private static String arabicToRoman(int romanNumber) {
-        int[] arabicNumerals = {10, 9, 5, 4, 1};
-        String[] romanNumerals = {"X", "IX", "V", "IV", "I"};
+        int[] arabicNumerals = {100, 50, 10, 5, 1};
+        String[] romanNumerals = {"C", "L", "X", "V", "I"};
 
         StringBuilder result = new StringBuilder();
 
